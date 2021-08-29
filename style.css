@@ -1,0 +1,101 @@
+.a1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.a1 a:hover{
+    background: #3D92CA;
+    border-radius: 15px;
+}
+
+.a2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu{
+    font-size: 16px;  
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+   
+
+    .navbar-nav{
+     
+        width: 480px;
+        display:block
+        
+    }
+
+
+    .nav-item{
+        width: 200px;
+        height: 50px;
+        
+    }
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 1190px){
+
+    .menu{
+        font-size: 14px;  
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto 
+        
+    }
+
+}
+
+.espaçamento{
+    margin-top: 50px;
+}
+
+.img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+
+.img-tamanho{
+    width: 1000px;
+    height: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto    
+}
+
+.info h4{
+    font-weight:bold;
+    color: #7592CA;
+    font-size: 16px;
+   
+}
+
+.center{
+  display: flex;
+  font-size: 32px;
+}
+
+i{
+    padding-right:20px;
+    font-size: 32px;
+}
+
+
+.navbar-toggler-icon{
+   background: #3D92CA;
+    width: 50px;
+    height: 50px;
+   
+}
